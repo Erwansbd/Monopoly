@@ -1,7 +1,7 @@
 package fr.gtm.monopoly;
 
 public abstract class Case {
-	private String name;
+	protected String name;
 	private String couleur;
 	private Case next;
 	
@@ -35,7 +35,8 @@ public abstract class Case {
 	public void setCouleur(String couleur) {
 		this.couleur = couleur;
 	}
+	public abstract void arreter(Joueur j);
 	
-	
+	public abstract void passer(Joueur j);
 
 }

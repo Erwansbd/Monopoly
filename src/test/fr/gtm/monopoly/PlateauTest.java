@@ -20,6 +20,15 @@ public class PlateauTest {
 			c = c.getNext();
 		}while(c!=depart);
 		assertEquals(40, cpt);
+
+		Monopoly m = new Monopoly();
+		Joueur j1 = new Joueur();
+		Pion p1 = new Pion();
+		m.addJoueur(j1, p1);
+		De d1 = new De();
+		De d2 = new De();
+		j1.jouer(d1, d2);
+		p1.avancer(d1.getValeur()+d2.getValeur());
 	}
 
 }
