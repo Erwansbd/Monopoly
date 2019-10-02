@@ -2,16 +2,9 @@ package fr.gtm.monopoly;
 
 public class Rue extends Propriete {
 
-
-//	private static int prixAchat = 100;
-//	private static int loyer;
-
-//	public Rue(String nom) {
-//		super(prixAchat,loyer);
-//		name = nom;
-//		// TODO Auto-generated constructor stub
-//	}
-
+	public Rue() {
+		
+	}
 
 	@Override
 	public String toString() {
@@ -40,5 +33,8 @@ public class Rue extends Propriete {
 
 	}
 
-
+	public void getName(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 }

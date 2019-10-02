@@ -1,15 +1,15 @@
 package fr.gtm.monopoly;
 
-public class DefaultCase extends Case {
+public class Neutre extends Case {
 
-	public DefaultCase() {
+	public Neutre() {
 	}
 
-	public DefaultCase(String name) {
+	public Neutre(String name) {
 		super(name);
 	}
 
-	public DefaultCase(String name, String couleur) {
+	public Neutre(String name, String couleur) {
 		super(name, couleur);
 	}
 

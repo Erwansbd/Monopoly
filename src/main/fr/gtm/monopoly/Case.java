@@ -39,4 +39,10 @@ public abstract class Case {
 	
 	public abstract void passer(Joueur j);
 
+
+	public void getName(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

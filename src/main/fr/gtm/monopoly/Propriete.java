@@ -2,10 +2,14 @@ package fr.gtm.monopoly;
 
 public abstract class Propriete extends Case {
 
-	private Joueur proprietaire;
+	public Joueur proprietaire;
 	private int prixAchat = 100;
 	private int loyer = 10;
 	
+	
+	public Propriete() {
+		
+	}
 	
 	public Propriete(int prixAchat, int loyer) {
 		super();
@@ -15,9 +19,15 @@ public abstract class Propriete extends Case {
 
 	@Override
 	public void arreter(Joueur j) {
-		// TODO Auto-generated method stub
-		Joueur.interesseParAchat(this,j);
-
+		if(proprietaire == null) {
+			Joueur.interesseParAchat(this,j);	
+		} if(j!=proprietaire){
+			System.out.println(j+" n'est pas le proprietaire il doit donc payer un loyer à "+proprietaire);
+			j.debiter(loyer);
+			proprietaire.crediter(loyer);
+			System.out.println("j paye proprietaire");
+		}
+		
 	}
 
 	@Override

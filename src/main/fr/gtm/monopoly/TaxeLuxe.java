@@ -1,8 +1,12 @@
 package fr.gtm.monopoly;
 
-public class TaxeDeLuxe extends Case {
+public class TaxeLuxe extends Case {
 
-	public TaxeDeLuxe(String string) {
+	
+	public TaxeLuxe() {
+		
+	}
+	public TaxeLuxe(String string) {
 		super(string);
 	}
 

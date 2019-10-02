@@ -2,6 +2,9 @@ package fr.gtm.monopoly;
 
 public class Depart extends Case {
 
+	public Depart() {
+		
+	}
 	public Depart(String string) {
 		super(string);
 	}

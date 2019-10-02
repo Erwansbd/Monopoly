@@ -4,9 +4,11 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNotSame;
 
+import java.io.IOException;
+
 class MainMonopoly {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, IOException {
    	 // TODO Auto-generated method stub
     	Plateau p = new Plateau();
     	//assertNotNull(p);
@@ -24,10 +26,16 @@ class MainMonopoly {
     	Monopoly m = new Monopoly();
     	Joueur j1 = new Joueur("Jacques");
     	Joueur j2 = new Joueur("Henry");
+    	Joueur j3 = new Joueur("Albert");
+    	Joueur j4 = new Joueur("Maurice");
     	Pion p1 = new Pion();
     	Pion p2 = new Pion();
+    	Pion p3 = new Pion();
+    	Pion p4 = new Pion();
     	m.addJoueur(j1, p1);
     	m.addJoueur(j2, p2);
+    	m.addJoueur(j3, p3);
+    	m.addJoueur(j4, p4);
 //    	De d1 = new De();
 //    	De d2 = new De();
     	m.jouer();

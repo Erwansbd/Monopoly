@@ -56,9 +56,10 @@ public class Joueur {
 	public static void interesseParAchat(Propriete p, Joueur j) {
 		// TODO Auto-generated method stub
 		if(j.getSolde()>p.getPrixAchat()) {
-			j.debiter(p.getPrixAchat());
-			System.out.println(p.getPrixAchat());
+			System.out.println("Le prix de la case "+p + " est de : " +p.getPrixAchat());
 			p.setProprietaire(j);
+			System.out.println(j+" est le proprietaire de "+p );
+			j.debiter(p.getPrixAchat());
 		}
 	}
 }
