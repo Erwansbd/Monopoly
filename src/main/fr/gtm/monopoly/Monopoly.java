@@ -1,5 +1,5 @@
 package fr.gtm.monopoly;
-
+///
 import java.util.ArrayList;
 import java.util.List;
 

@@ -5,8 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import fr.gtm.demoforname.Point;
-
 public class Plateau {
 	private Case[] cases = new Case[40];
 

@@ -1,5 +1,5 @@
 package fr.gtm.monopoly;
-
+///
 public class Impots extends Case {
 
 	public Impots(String string) {

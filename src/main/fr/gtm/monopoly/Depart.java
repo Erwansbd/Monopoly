@@ -1,5 +1,5 @@
 package fr.gtm.monopoly;
-
+///
 public class Depart extends Case {
 
 	public Depart() {

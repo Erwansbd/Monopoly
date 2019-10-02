@@ -1,5 +1,5 @@
 package fr.gtm.monopoly;
-
+///
 public class Neutre extends Case {
 
 	public Neutre() {

@@ -1,5 +1,5 @@
 package fr.gtm.monopoly;
-
+///
 public class Pion {
 	private String nom;
 	private Joueur joueur;

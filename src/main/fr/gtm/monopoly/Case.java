@@ -1,5 +1,5 @@
 package fr.gtm.monopoly;
-
+///
 public abstract class Case {
 	protected String name;
 	private String couleur;

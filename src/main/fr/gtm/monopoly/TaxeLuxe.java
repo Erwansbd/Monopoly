@@ -1,5 +1,5 @@
 package fr.gtm.monopoly;
-
+///
 public class TaxeLuxe extends Case {
 
 	

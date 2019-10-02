@@ -1,5 +1,5 @@
 package fr.gtm.monopoly;
-
+///
 public abstract class Propriete extends Case {
 
 	public Joueur proprietaire;
